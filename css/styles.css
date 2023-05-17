@@ -1,0 +1,174 @@
+
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'montserrat-bold';
+}
+    
+.big-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-right: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-light';
+}
+
+/* title section */
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+    
+}
+#title .container-fluid{
+    padding: 3% 5% 7%;
+}
+.title-img {
+    position:absolute;
+    right: 30%;
+    transform: rotate(25deg);
+    width: 60%;
+}
+.phone{
+    position: relative;
+}
+@media (max-width:1028px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    .title{
+        -align: center;
+        background-color: #ef8172;
+    }
+}
+
+/* download button */
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+
+
+/* feature section */
+#features{
+    
+    background-color: white;
+    position: relative;
+    
+    
+    
+}
+#features .col-lg-4 {
+    padding: 5%;
+  }
+
+.feature-title{
+    font-size: 1.5rem;
+    
+}
+.feature-box{
+    border:1px solid #ff4c68;
+    padding: 5%;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+/* psuso selector */
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+    
+    background-color:#ef8172;
+    color:white;
+    
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+/* call to action section */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+
+/* footer */
+
+.social-icons{
+    padding: 10px 20px;
+}
